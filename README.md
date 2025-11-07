@@ -1,3 +1,5 @@
+# Pneumonia-Detection-From-Chest-X-ray-using-CNN
+
 # Flask Web-App Pneumonia Detection from Chest X-Ray Images CNN 
 A Flask **pneumonia detection** web application 
 
@@ -9,13 +11,13 @@ A Flask **pneumonia detection** web application
 
 ## Setting up the Web-App Locally 
 
-1. Clone The Repository or Download Zip from  <https://github.com/YashShende/Pneumonia_Detection/archive/master.zip> & Extract it.
+1. Clone The Repository or Download Zip from this repository & Extract it.
 
 2. Install Requirements  `pip install -r requirements.txt`
 
 3. To run the app on localhost run `python app.py`
 
-4. app is running at `http://127.0.0.1:5002`
+4. app is running at `http://127.0.0.1:5000`
 
 #### Dataset
 <pre>
@@ -28,13 +30,10 @@ Dataset Link : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 #### Model 
 <pre>
-In this Project i Trained my model on Google Colab and saved model in Models Folder.
+In this Project the model was trained on Google Colab and saved in the Models Folder.
 You can put your trained model inside the Models folder to get better results just 
-keep in mind the dimenssions of image feed to trained model if you want to take a 
-look how i trained my model check this link 
+keep in mind the dimensions of image feed to trained model.
 </pre>
-#### Link : <https://colab.research.google.com/drive/1RrHsRmCa-V9EtZQRI0HnnVoaN9j8A5qk>
-
 
 ## WebApp 
 #### Home Page 
